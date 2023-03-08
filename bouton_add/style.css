@@ -53,7 +53,7 @@
 
 .newcard:hover{
         transform:scale(0.85);
-        background-color: rgba(211, 211, 211, 0.61);
+        background-color: rgba(105, 71, 71, 0.61);
         filter: saturate(150%)
 }
 
