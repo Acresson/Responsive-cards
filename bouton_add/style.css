@@ -1,0 +1,59 @@
+
+
+.newcard {
+        background-color: #f9f9f9;
+        font-size: 16px;
+        aspect-ratio: 400/260;
+        max-width: 45vw;
+        min-width:7.125rem ;
+        max-height: 27vh;
+        min-height: 4.6875rem;
+        margin: 1rem 1rem 1rem 0;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); 
+        border-radius: 6px ;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        border: none;
+}
+
+
+.newcardbutton{
+        background-color: #f1f1f1;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border-radius: 5px;
+        align-items: center;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.253);
+}
+
+
+.button{     
+        border: 0px;
+        border-radius: 5px;
+        max-height:50%;
+        max-width: 50%;
+        height: 45%;
+        width:35%;
+        padding:0;
+}
+
+
+.imgbutton{
+        width:100% ;
+        height: 100%;
+        border-radius: 10px;
+}
+
+
+.newcard:hover{
+        transform:scale(0.85);
+        background-color: rgba(211, 211, 211, 0.61);
+        filter: saturate(150%)
+}
+
