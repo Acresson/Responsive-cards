@@ -4,11 +4,12 @@
         background-color: #f9f9f9;
         font-size: 16px;
         aspect-ratio: 400/260;
-        max-width: 45vw;
+        max-width: 25rem;
         min-width:7.125rem ;
-        max-height: 27vh;
+        width:100%;
+        max-height: 16.25rem;
         min-height: 4.6875rem;
-        margin: 1rem 1rem 1rem 0;
+        height:100%;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); 
         border-radius: 6px ;
         display: flex;
@@ -57,3 +58,31 @@
         filter: saturate(150%)
 }
 
+.contener {
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:1rem;
+      }
+      
+      @media screen and (min-width: 1021px) {
+        .contener {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+
+      /*@media screen and (min-width: 3500px) {
+        .contener {
+          grid-template-columns: repeat(6, 1fr);
+         }
+       }*/
+body {
+       display: flex;
+       
+}
+
+.newcardcontener {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+}
